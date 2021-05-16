@@ -4,7 +4,7 @@ module.exports = {
   author: "changwoomon",
   siteUrl: "https://changwoomon.github.io/",
   links: {
-    github: "https://github.com/devHudi",
+    github: "https://github.com/changwoomon",
     kaggle: "https://www.kaggle.com/changwoomon",
     // linkedIn: "https://linkedin.com",
     // facebook: "https://www.facebook.com/profile.php?id=100057724153835",

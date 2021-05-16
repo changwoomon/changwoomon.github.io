@@ -72,7 +72,7 @@ It supports Katex syntax, you can easily express complex formulas.
 
 #### Inline mode
 
-$$E = m c^{2}$$
+$$ E = m c^{2} $$
 
 #### Block mode
 
@@ -102,4 +102,8 @@ You can classify and search documents by tag set in Frontmatter. All tags you se
 
 You can publish multiple related documents in a series. The series set in Frontmatter is grouped together and shown at the top of the document. This can be useful for serialized documents with an order. Series documents are displayed in ascending order of creation date.
 
+<div style="background-color:yellow">TEST</div>
+
 The current document is also set in a series called `Getting started your blog with Hoodie`.
+
+> 이런거쓰면안되나
