@@ -2,7 +2,7 @@ const blogConfig = require("./blog-config")
 const { title, description, author, siteUrl } = blogConfig
 
 module.exports = {
-  pathPrefix: "/Hoodie",
+  pathPrefix: "/gatsby-starter-hoodie",
   siteMetadata: {
     title,
     description,
@@ -79,9 +79,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 680,
               loading: "lazy",
-              wrapperStyle: "margin-bottom: 1rem; max-width: 100%;",
+              wrapperStyle: "margin-bottom: 1rem;",
               quality: 100,
             },
           },
