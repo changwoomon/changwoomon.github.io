@@ -88,7 +88,7 @@ $$X^{L} = [x^{L}_{cls}, x^{L}_{1}, ..., x^L_{sl_{1}}, ..., x^{L}_{sl_{J}},...]$$
 
 ## 5. Decoder (Slot Value Generation)
 
-<img src="decoder.png">
+<img src="decoder.PNG">
 
 - Left-to-right self-attention을 사용함
 - Encoder에서 도출해낸 hidden states를 decoder에서 reuse
@@ -96,7 +96,7 @@ $$X^{L} = [x^{L}_{cls}, x^{L}_{1}, ..., x^L_{sl_{1}}, ..., x^{L}_{sl_{J}},...]$$
 
 ### 5-1) Decoder Input
 
-<img src="decoder_input.png">
+<img src="decoder_input.PNG">
 
 - Encoder (reuse)
     - 왼쪽의 $$D_{t}$$와 $$[SLOT]$$은 Encoder 부분을 나타냄
