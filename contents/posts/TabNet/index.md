@@ -24,14 +24,14 @@ tags:
 
 - global methods: feature importance를 기반으로 하여 feature selection
 - Instance-wise feature selection: response variable과 선택된 feature들간의 공통 정보를 최대화 하기 위해 explainer model을 사용해서 feature를 individually하게 뽑음
-- TabNet: soft feature selection with controllable sparsity in end-to-end learning
- → 단일 모델이 feature selection을 하고 output mapping까지 하는 구조
+- TabNet: soft feature selection with controllable sparsity in end-to-end learning  
+  → 단일 모델이 feature selection을 하고 output mapping까지 하는 구조
 
 ### 2. Tree-based learning
 
 - tabular data를 위해 많이 사용
 - variance를 줄이기 위해 앙상블 기법을 사용  
-  → random forests, XGBoost, LightGBM등이 있음
+  → random forests, XGBoost, LightGBM 등이 있음
 - 딥러닝이 feature selecting property를 retrainig 시키면 성능이 더 오를 수 있다고 주장
 
 ### 3. Integration of DNNs into DTs
@@ -56,7 +56,7 @@ tags:
 ## 4. Tabnet 특징
 
 1. Data에서 Sparse instance-wise feature selection을 사용
-  - salient features (두드러진 feature)들을 선택(selection)하는 것은 높은 성능을 내는데 중요한 요소 (특히 dataset이 작을 떄)
+  - salient features(두드러진 feature)들을 선택(selection)하는 것은 높은 성능을 내는데 중요한 요소(특히 dataset이 작을 때)
   - 따라서 dataset에서 subset을 만들어 determine(결정)하도록 재구성함
 
   <img src="feature_subset.PNG">
@@ -188,7 +188,7 @@ tags:
 ## Hyperparameter 설정 방법
 
 $$N_d, N_a = \{8, 16, 24, 32, 64, 128\}$$  
-$$N_{steps} = \{3, 4, 5, 6, 7, 8, 9, 10\}$  
+$$N_{steps} = \{3, 4, 5, 6, 7, 8, 9, 10\}$$  
 $$\gamma = \{1.0, .12, 1.5, 2.0\}$$  
 $$\lambda_{sparse} = \{0, 0.000001, 0.0001, 0.001, 0.01, 0.1\}$$  
 $$B = \{256, 512, 1024, 2048, 4096, 8192, 16384, 32768\}$$  
