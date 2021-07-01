@@ -139,6 +139,6 @@ $$L = \alpha L_{g} + \beta L_{v}$$
 
 ## 참고 자료
 
-- 논문: [Transferable Multi-Domain State Generator for Task-Oriented Dialogue Systems](https://arxiv.org/pdf/1905.08743.pdf)
+- 논문: [Transferable Multi-Domain State Generator for Task-Oriented Dialogue Systems](https://arxiv.org/abs/1905.08743)
 - 영상: [[Paper Review] Transferable Multi-Domain State Generator for Task-Oriented Dialogue Systems - KoreaUniv DSBA](https://www.youtube.com/watch?v=nuclwoebdEM)
 - GitHub: [TRADE](https://github.com/jasonwu0731/trade-dst)
