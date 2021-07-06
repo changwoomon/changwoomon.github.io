@@ -8,7 +8,6 @@ import {
   FaFacebook,
   FaLinkedin,
   FaInstagram,
-  FaKaggle,
   FaLink,
 } from "react-icons/fa"
 
@@ -79,7 +78,7 @@ const Link = ({ link, children }) => {
 }
 
 const Bio = () => {
-  const { github, instagram, facebook, linkedIn, kaggle, etc } = links
+  const { github, instagram, facebook, linkedIn, etc } = links
 
   return (
     <BioWrapper id="bio">
@@ -99,9 +98,6 @@ const Bio = () => {
           </Link>
           <Link link={linkedIn}>
             <FaLinkedin />
-          </Link>
-          <Link link={kaggle}>
-            <FaKaggle />
           </Link>
           <Link link={etc}>
             <FaLink />
