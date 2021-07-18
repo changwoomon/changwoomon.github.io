@@ -143,7 +143,7 @@ data-styled.g53[id="Footer__HiddenWrapper-zqxmks-9"]{content:"gOHufN,"}/*!sc*/
 <span class="token builtin">input</span> <span class="token operator">=</span> sys<span class="token punctuation">.</span>stdin<span class="token punctuation">.</span>readline
 
 s_L<span class="token punctuation">,</span> s_R <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>split<span class="token punctuation">(</span><span class="token punctuation">)</span>
-_string <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>rstrip<span class="token punctuation">(</span><span class="token punctuation">)</span>
+string <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>rstrip<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
 keyboard <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"qwertyuiop"</span><span class="token punctuation">,</span> <span class="token string">"asdfghjkl"</span><span class="token punctuation">,</span> <span class="token string">"zxcvbnm"</span><span class="token punctuation">]</span>
 lefthand <span class="token operator">=</span> <span class="token string">"qwertasdfgzxcv"</span>
@@ -163,7 +163,7 @@ x_R<span class="token punctuation">,</span> y_R <span class="token operator">=</
 
 time <span class="token operator">=</span> <span class="token number">0</span>
 
-<span class="token keyword">for</span> s <span class="token keyword">in</span> _string<span class="token punctuation">:</span>
+<span class="token keyword">for</span> s <span class="token keyword">in</span> string<span class="token punctuation">:</span>
     x_s<span class="token punctuation">,</span> y_s <span class="token operator">=</span> position<span class="token punctuation">(</span>s<span class="token punctuation">)</span>
     <span class="token keyword">if</span> s <span class="token keyword">in</span> lefthand<span class="token punctuation">:</span>
         time <span class="token operator">+=</span> keyboarding<span class="token punctuation">(</span>x_L<span class="token punctuation">,</span> y_L<span class="token punctuation">,</span> x_s<span class="token punctuation">,</span> y_s<span class="token punctuation">)</span>
