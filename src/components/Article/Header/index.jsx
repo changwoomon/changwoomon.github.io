@@ -1,14 +1,13 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
 
 import { author } from "../../../../blog-config"
 
 import Divider from "components/Divider"
 import TagList from "components/TagList"
-import InvertLinkMixin from "components/Mixins/InvertLinkMixin"
 
 const Wrapper = styled.div`
+  margin-top: 2rem;
   @media (max-width: 768px) {
     padding: 0 15px;
   }
@@ -37,7 +36,7 @@ const Date = styled.span`
   color: ${props => props.theme.colors.secondaryText};
 `
 
-const Header = ({ title, date, update, tags, minToRead }) => {
+const Header = ({ title, date, tags, minToRead }) => {
   return (
     <Wrapper>
       <ArticleTitle> {title} </ArticleTitle>

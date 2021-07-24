@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import InvertLinkMixin from "components/Mixins/InvertLinkMixin"
 
 const StyledMarkdown = styled.div`
   & {
@@ -113,6 +112,10 @@ const StyledMarkdown = styled.div`
     border-bottom: none;
   }
 
+  & p > code {
+    word-break: break-all;
+  }
+
   & p > code.language-text,
   & li > code.language-text {
     padding: 0.1rem 0.3rem;
@@ -124,7 +127,7 @@ const StyledMarkdown = styled.div`
 
   & ul,
   & ol {
-    padding-left: 1.5rem;
+    padding-left: 2rem;
   }
 
   & ol {
@@ -143,6 +146,31 @@ const StyledMarkdown = styled.div`
     list-style: square;
   }
 
+  & li {
+    margin-bottom: 0.8rem;
+  }
+
+  & li p {
+    margin-top: 0.5rem;
+  }
+
+  & pre {
+    ::-webkit-scrollbar {
+      height: 12px;
+    }
+    ::-webkit-scrollbar-track {
+      background: ${props => props.theme.colors.scrollTrack};
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: ${props => props.theme.colors.scrollHandle};
+    }
+  }
+
+  & pre > code {
+    font-size: 0.9rem;
+  }
+
   & img {
     display: block;
     margin-left: auto;
@@ -156,7 +184,13 @@ const StyledMarkdown = styled.div`
   }
 
   & a {
-    ${InvertLinkMixin}
+    padding: 0.1rem 0;
+    color: ${props => props.theme.colors.text};
+  }
+
+  & a:hover {
+    background-color: ${props => props.theme.colors.text};
+    color: ${props => props.theme.colors.hoveredLinkText};
   }
 `
 
