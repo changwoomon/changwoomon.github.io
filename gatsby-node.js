@@ -1,11 +1,9 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const _ = require("lodash")
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
   const postTemplate = require.resolve(`./src/templates/Post.jsx`)
-  const tagTemplate = require.resolve(`./src/pages/tags.jsx`)
 
   const result = await graphql(`
     {
@@ -65,11 +63,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode })
+    const newSlug = `/${slug.split("/").reverse()[1]}/`
 
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: newSlug,
     })
   }
 }
