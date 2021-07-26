@@ -16,6 +16,11 @@ const SeriesHeader = styled.h2`
   font-size: 1rem;
   font-weight: bold;
   color: ${props => props.theme.colors.text};
+  
+  & > span {
+    font-weight: normal;
+    color: ${props => props.theme.colors.tertiaryText};
+  }
 `
 
 const Post = styled.li`
