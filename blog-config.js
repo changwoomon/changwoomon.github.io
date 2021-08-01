@@ -6,7 +6,7 @@ module.exports = {
   links: {
     github: "https://github.com/changwoomon",
     kaggle: "https://www.kaggle.com/changwoomon",
-    etc: "https://drive.google.com/file/d/1LSwntP-sh4GePQ5FF9F6rq5TQLQg1Z-S/view?usp=sharing",
+    etc: "https://drive.google.com/file/d/1zG5ITRwqtgBfGk3wKFg3rEgGBOI9NV6T/view?usp=sharing",
     // linkedIn: "https://linkedin.com",
     // facebook: "https://www.facebook.com/profile.php?id=100057724153835",
     // instagram: "https://www.instagram.com/dawn_fromeast/",
