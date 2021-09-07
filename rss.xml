@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of changwoomon's blog]]></title><description><![CDATA[(੭•̀ᴗ•̀)੭🔥]]></description><link>https://changwoomon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 15 Aug 2021 10:40:13 GMT</lastBuildDate><item><title><![CDATA[TabNet: Attentive Interpretable Tabular Learning]]></title><description><![CDATA[TabNet 1. Abstract Sequential attention을 사용해서 각각의 decision step마다 여러 feature들 중에 중요한 feature들만 고름 tabular data의 self-supervised learning…]]></description><link>https://changwoomon.github.io/TabNet/</link><guid isPermaLink="false">https://changwoomon.github.io/TabNet/</guid><pubDate>Tue, 08 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;TabNet&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of changwoomon's blog]]></title><description><![CDATA[(੭•̀ᴗ•̀)੭🔥]]></description><link>https://changwoomon.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 07 Sep 2021 16:38:10 GMT</lastBuildDate><item><title><![CDATA[A deep learning approach for Parkinson's disease diagnosis from EEG signals]]></title><description><![CDATA[Proposed CNN architecture stratified tenfold cross-validation Adam optimization with a learning rate of 0.0001 activation functions such as…]]></description><link>https://changwoomon.github.io/Parkinson_1/</link><guid isPermaLink="false">https://changwoomon.github.io/Parkinson_1/</guid><pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;Neural Computing and Applications (2020)&lt;/code&gt;&lt;/h2&gt;
+&lt;h3&gt;Proposed CNN architecture&lt;/h3&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 1rem;&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/86213182d785529044a7bae19b7a96b3/b5dc4/model_1.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 63.52941176470588%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAACgklEQVQ4y1VTyW4TQRD1z/IFXDig/EAOCAmJCyInRCQiBaEckCBGgIhlFDkkTsaescf27LtnPJ7Vszyq2wuhpJpF3fXqva7XHeyirRusVis4jgNVVeG6Ltq2RdM0h/fjbGtgHcdYLpd8nSWLTlmUUCMbimfA0HRYtgXP8/jGLMuQpil839/9pwRWw3M1XPYvoOg6XCJQVdWWFIF24iDC2fArjgfvsV4nSJMEYRhyUJZRFHG2jBVaYkdFq6WF8+5bDIQHrGhdJ+CY2HKGrLMf+OjPBlhoEiaTKURJhCiK9D2BbduwLIsXxHHEi+amgcHwHK6twXE9IhIfWHYYi7mi4EG8ha504Vk+JAIUBIEDrddrzrIsSxRFxosMf4mTiyOMhC90DDUHPEiu6woxSbXMGe7lW1zeXWEhz6FQk72UbfcW1abghXkWYz4fQVEVGKb570gYQ/ZI05wGIkOUb/Br9BuLmUKSx5hOpxywrmuwxi0bLUVWZuhfvyEgB03d4HF0th0zaIaJH8MrTIQTuDRxx/GgaRqXXBQFZ5fQwMBkFznMqQBp/ADL8xHmJRJyS0ONOSDrwoajWDoN5h7j0RCyPOOS95ETUODYeHc3xdPeBEc3Op79MfB8aOHJtY5vCwuoSnT2hiRwzKUuPvZOcTeT4ZG/mH2YDxuSW1Ubvm8QJPigBHgpunghengtOTCjGO1e8hZw6/Qw9CDNbnA/uoWqqNANHUEQcLktHXrdbMsikn4sOnhFYKeyw4fKPMqn/PjaOG6Az71PGI3PyH8+t0ORp8R+s7ufLTc2y6T3k5B9eN+7/9+U/QcLtrCiqUZRcAA6gO327fcu/QB5uaGzDw+WYWt/AR0I0h9VNyRiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;model 1&quot; title=&quot;model 1&quot; src=&quot;/static/86213182d785529044a7bae19b7a96b3/ca1dc/model_1.png&quot; srcset=&quot;/static/86213182d785529044a7bae19b7a96b3/e7570/model_1.png 170w,
+/static/86213182d785529044a7bae19b7a96b3/f46e7/model_1.png 340w,
+/static/86213182d785529044a7bae19b7a96b3/ca1dc/model_1.png 680w,
+/static/86213182d785529044a7bae19b7a96b3/b5dc4/model_1.png 915w&quot; sizes=&quot;(max-width: 680px) 100vw, 680px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 1rem;&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/d84bfb820b9df2169cf35ff0713cd0fd/3d556/model_2.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 42.35294117647059%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAABFElEQVQoz3WSiW7EIAxE+f+fzCZkc983uVweKdJqq1qyGMx4bAwqiiKJ41jCMJQkSUTrWIIgcDFWrbX1SKJIu/37nUjTNJLnuWRZ5ta6riVNUxdXXddZUFvyS8B930lVVTJNk7RtK8Mw2FjvyC/LIVYUheN455wY+eq6Ltn33XVIcF1Xt7/vWzjDwMQQxSj2nymI27Y9gmUpy7I4UWPjrNhxHI5DN/DHcZTzPF0hXxgHK8jGGGGWT4eLTTYu8VOQPdcFT9Mj6A2hPx3yCHXdiLGYmC+EkQzu7YzoZJ7nZxy/QpzDZ1WIcc3SXve72iemCI7xUH6+GBr8EB5HcS2GzMD9rOjm22fLIQFRZukfjzNy0AD/ACcHahK2gKkVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;model 2&quot; title=&quot;model 2&quot; src=&quot;/static/d84bfb820b9df2169cf35ff0713cd0fd/ca1dc/model_2.png&quot; srcset=&quot;/static/d84bfb820b9df2169cf35ff0713cd0fd/e7570/model_2.png 170w,
+/static/d84bfb820b9df2169cf35ff0713cd0fd/f46e7/model_2.png 340w,
+/static/d84bfb820b9df2169cf35ff0713cd0fd/ca1dc/model_2.png 680w,
+/static/d84bfb820b9df2169cf35ff0713cd0fd/02d09/model_2.png 1020w,
+/static/d84bfb820b9df2169cf35ff0713cd0fd/3d556/model_2.png 1309w&quot; sizes=&quot;(max-width: 680px) 100vw, 680px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;stratified tenfold cross-validation&lt;/li&gt;
+&lt;li&gt;Adam optimization with a learning rate of 0.0001&lt;/li&gt;
+&lt;li&gt;activation functions such as Relu for all layers&lt;/li&gt;
+&lt;li&gt;softmax for the last layer&lt;/li&gt;
+&lt;li&gt;dropout is set to 0.5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;the kernel size and number of filters are obtained through the &lt;strong&gt;brute force technique&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Subjects&lt;/h3&gt;
+&lt;p&gt;20 PD patients (10 women and 10 men)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;age range between 45 and 65 years old&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;average period of PD of 5.75 +- 3.52 years&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ranging from 1 to 12 years&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stage (i) - 2&lt;/li&gt;
+&lt;li&gt;Stage (ii) - 11&lt;/li&gt;
+&lt;li&gt;Stage (iii) - 7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MNSE(mini-mental status examination) results: observed to be &lt;strong&gt;inside the range of the normal limits&lt;/strong&gt; [26.90 +- 1.51 (range 25-30)]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;20 normal subjects in the same age group (9 men and 11 women)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;age of 58.10 +- 2.95&lt;/li&gt;
+&lt;li&gt;with no past record or indications of neurological or mental disorder were enlisted&lt;/li&gt;
+&lt;li&gt;MNSE results: 27.15 +- 1.63 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;EEG recordings and pre-processing&lt;/h3&gt;
+&lt;p&gt;lasted 5 min in resting state (to attain a state of relaxed wakefulness) at &lt;strong&gt;128 Hz sampling rate&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;emotive EPOC neuroheadset of &lt;strong&gt;14 channels&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;the signals were &lt;strong&gt;segmented into 2-s window length&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;threshold technique&lt;/strong&gt; was used to discard the signal amplitudes exceeding ± 100 &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;μ&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\mu&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.625em;vertical-align:-0.19444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;μ&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;V &lt;strong&gt;to remove the eye blinking artifacts&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6th-order bandpass Butterworth filter with forward reverse filtering technique&lt;/strong&gt; was employed to filter the frequency range of 1-49 Hz&lt;/p&gt;
+&lt;h3&gt;Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Accuracy: 88.25%&lt;/li&gt;
+&lt;li&gt;Sensitivity: 84.71%&lt;/li&gt;
+&lt;li&gt;Specificity: 91.77%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;performance of the model&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;with dropout layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 1rem;&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/ee98a4f7b7d8a44842764256f0d0eedd/50208/performance_1.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 77.64705882352942%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6ElEQVQ4y51Ta5ObMAzk//+/fGgnCUeagA0YDJj3Yyspcco1uelNNaOI2PJ6tZYCkI3jiNSUyMjzLENVVWia5pPXdU2xRusacnePbYeiaqCLGmVVw9F6wIBd1yHLcyRK4XA4yAXrumJZFvFtg9hK0Q0zbDtA1z10bpDSOfa2bWGMQcCop/MZc1uib4glJXl74GAeexRFjvgawSQh6vSCuSBPfwL2FzCUwDJQTnlnyOjDOP0BIkrbg9ZQxjDXH2hMjHV0zPPu6/K81F9cFAUCBjsej5in6QWssym0umFvvCW+y/X5AsgaMSjr5gHFphYqvggfPr5tqyBtX/gTMIoi3G43TDuGbDWVWLnu09r+8Dt5BNBr+GTIPySwSWOMi2f3CvQlILdM+PHxYPhg0hpk9GJ4o9M/AfmDG9e/8kb9lyUXVN34Arh9R8OeGLKGrqkQaw2XReicxf+YAPJEWBobmyvk1xOaymIYBtHVuVamiJufI6/56Nf2USbFo+emQD+MyGmMMppnTuIOYG059n0vlVhrZdb5my8Ow1By4jgW6YLvlMK9eqbxZAZeV67M7+21DpgR38SU2ftduWVZyq38n/Vhdr69/u5Pb8HpdBYgpRJoehQ+qLWCTlMpSyUJ7SlxLotz34F5hr8BPPXdXnfCfoEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;performance 1&quot; title=&quot;performance 1&quot; src=&quot;/static/ee98a4f7b7d8a44842764256f0d0eedd/ca1dc/performance_1.png&quot; srcset=&quot;/static/ee98a4f7b7d8a44842764256f0d0eedd/e7570/performance_1.png 170w,
+/static/ee98a4f7b7d8a44842764256f0d0eedd/f46e7/performance_1.png 340w,
+/static/ee98a4f7b7d8a44842764256f0d0eedd/ca1dc/performance_1.png 680w,
+/static/ee98a4f7b7d8a44842764256f0d0eedd/50208/performance_1.png 798w&quot; sizes=&quot;(max-width: 680px) 100vw, 680px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;without dropout layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 1rem;&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/a4655c65d248ad83f0898397437503cf/c3dd4/performance_2.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 77.05882352941177%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB3klEQVQ4y51Tia6jMAzk/z+yLS03hAQIZ4B5nvSl2+5qn1ZraWRk7PERO4LIMAx4PB5oTI80L3C/3zHPM9ZlgVsXLMvsYYYRTWefMBZ5OyBTA1LVo9AjqrpBdJ4nCK01rK7wiG+ekLIL+g1opx1qdOgXh1FgBdPqsO/isYvD4YBzQ9f3iEKFSZLgOHYhP7CfgBpmyVhiUDncqHFOWhwLwArGRnSJcxDYCkcvtlnDaPUkPI4DxhjszvnKyrqCrR/A0gHrILBSwIxzd5BcH8Cb7rruSTiOI9I09UZjFCZdvBzfA73te0S/40XYti2UUtCi3X5A1xlOqfj8a7D/8SIJSV6E67rCWgsST5OFUeWvSt6cf5IPQn6QlK/Mx+nb6oPwX+QPws0TGqi6gJuHH2f10wz5sJ6QLZdlCVVlslsO/yt92ENmMNJypTTmZfXrs23bB5zYFl6OaI7Iffu8az5uFJiLokDdNPIwk18h2uq6RlVVfrZZlnkiXhF9eAjBh92xy+v1+iQMwkwU3jElZKfw1pmIg6eQNMQwUYiL2EZogbdJcATUwZmXRAJuQkhCW4jh3tLGuOh+j32pdI6lHVbBNpIkRSJV8R9trLCQ1lJpNY5jb7tcLl7neY7bLUYrHF85+o58sX4sAwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;performance 2&quot; title=&quot;performance 2&quot; src=&quot;/static/a4655c65d248ad83f0898397437503cf/ca1dc/performance_2.png&quot; srcset=&quot;/static/a4655c65d248ad83f0898397437503cf/e7570/performance_2.png 170w,
+/static/a4655c65d248ad83f0898397437503cf/f46e7/performance_2.png 340w,
+/static/a4655c65d248ad83f0898397437503cf/ca1dc/performance_2.png 680w,
+/static/a4655c65d248ad83f0898397437503cf/c3dd4/performance_2.png 788w&quot; sizes=&quot;(max-width: 680px) 100vw, 680px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;p&gt;→ without the dropout layer, there is a possibility of overfitting of data&lt;/p&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 1rem;&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/1130e3da055152837e6ec162a2f734c8/68c0a/confusion_matrix.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 84.70588235294117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAADfklEQVQ4y32UW2wUZRiGJwgihCvQECInIwEEWkAix2AFrQmCN1wQLyRAgNKUgwFKC6WAF0JivMGYqKi3JiYmxgu8kDRcYNAgCKXdEtnzYba7s7tz2Dns7M7s9uX7v+mW9kL/ZPbN7Pz/M+93Ggnja2xsjNX3fVSrVVYlr2BwcBBDQ0OIRCJ4MjKCcDiMWq02cTUaDfieB9M0+V5qgur1Buvl6z9j5a4+bNr3GTbs/RStH/ajZc9FDNwNwXIqUEo6dNOBYbtQ9TKKqo6rN35DMpmEZVmQmu78ceDH525AWrgf0hvHIC0/AmkV6YoO3PorzM+rtM0jrZHarod8UcPRL25C1TR4kx36fl384tD57yAtO4yXt57Bwnd6MHv9Ccxc24Vbf/7L+4q6RS4NBppOlR2f/eEPpNJp2Lb9HCjEc20c6PmWgXM3n8aC7d2Ytf44A39vAg0bBc2ES+8vU9iKaqD/p7+RVxTO/QRQVTXWg73kcMkBTG/ppLA7MG11oAP3gpB92i5OiAS5NR9FrYzPbz6GnM1OdTgcGmE9fe1HzNtyBq+/fxGvtfdh6XsXsHjnefwy8Bg51UEkoyGW1ZDIGQgnFeQp5G9uP0EmI3MtJoDRaBSNeh2jisoH85pDarMW9Ap2d32NORspDTsuYH5bL155uxcL2nrwIBTHr4+SyOXyBGwEVRa9pKoqg8uWA68hyhOE5dH7RLl2Hv6Sqt6BGetOYlrrcbyw9iRmUn7vD0dx56mMVCrNHHbYdKnrOpSiygnXrQoSmRwqRHSJ3n70K8plJ7tb9G4fXnzzFOa8dQr/hGIYThWgFApByJOnxDCeAy3qMbVsM6xK9+0dBFzVibnbujGPrpc2fMLAhxRyLKsikUjScNQD4GSobo5DGkHzCpgIu+3QdWqnIxTuCUhruiC1UNitXXgwHENeLXOXTHEYAMdQ0gweK9OpUZ9VYVguN/BH3d/j1R09WLnnCpbvvoxluy5hxQf9CD1N0ZToiMcTgcMmrOlQDLhoUJHPdDpItPhQOBUXbtVDRh5FLJGCaVegGyaNbB0efRzEHHNR8B9LPBQbc7kcgxUlT5VM0UET/7ck4aZGB4Uzb1yFI3GJEIrFIkOFZnkaHP5fnBM6OWWcQ1nOcFOXSiV2EI/H6aBMVUtglAAKzWiBWiJDLtPpDGQ5y88ikShc151SULGeAcn/gg12dngpAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;confusion matrix&quot; title=&quot;confusion matrix&quot; src=&quot;/static/1130e3da055152837e6ec162a2f734c8/ca1dc/confusion_matrix.png&quot; srcset=&quot;/static/1130e3da055152837e6ec162a2f734c8/e7570/confusion_matrix.png 170w,
+/static/1130e3da055152837e6ec162a2f734c8/f46e7/confusion_matrix.png 340w,
+/static/1130e3da055152837e6ec162a2f734c8/ca1dc/confusion_matrix.png 680w,
+/static/1130e3da055152837e6ec162a2f734c8/68c0a/confusion_matrix.png 756w&quot; sizes=&quot;(max-width: 680px) 100vw, 680px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;h3&gt;Discussion&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;기존 연구와의 비교&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 1rem;&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/efd2da470b30626b7e710fdf115ae851/3e86e/comparison.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 33.529411764705884%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABHUlEQVQoz02S167EMAhE/f9/mJdNdcpN792zDFGu1hICGQyHSUySJBjHCfM8oygK1HWNOI4QBAG6rsM0TZIf1bOmKkuEYSg1MdI0xTAMmmdunieYbdsAONz3jeM4cJ4n9n0H793twOOcw3VdGnddC8/zkCQWn89HmxPC932NjbWJJHMp7JFlmVIGkiQhC1horVUKErdti6ZpNKZnM96VQk4zi6Cu6y4ETsg2pdN1pPmyLGLrQ+seWm5C4+E273k3MOw+DKMQLI9WYr7QPRrZf71IymEc0vW9Pq6qSrSdtTFpOdRw2jtdJ0mS2lgRPBOLokhXzoX4T1Z6Nf31v7F5Hjxfixrmea760V6huQU1Y01R5DpslJh/CLVn7tX5C0E/FSxg+UalAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;comparison&quot; title=&quot;comparison&quot; src=&quot;/static/efd2da470b30626b7e710fdf115ae851/ca1dc/comparison.png&quot; srcset=&quot;/static/efd2da470b30626b7e710fdf115ae851/e7570/comparison.png 170w,
+/static/efd2da470b30626b7e710fdf115ae851/f46e7/comparison.png 340w,
+/static/efd2da470b30626b7e710fdf115ae851/ca1dc/comparison.png 680w,
+/static/efd2da470b30626b7e710fdf115ae851/02d09/comparison.png 1020w,
+/static/efd2da470b30626b7e710fdf115ae851/3e86e/comparison.png 1062w&quot; sizes=&quot;(max-width: 680px) 100vw, 680px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;향후목표&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 665px; margin-bottom: 1rem;&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/2a42652056b1a1e3a4be6be555e6a499/a300e/purpose.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 106.47058823529412%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAADUUlEQVQ4y31UWWsTURS+WtHfIYJvvvosFBUfRKiKqC9qwRYUXyyoKAUrPmhFpW5VcavU0CpCrVYo9KHaxcYWq91bbVbTJJNJJpksk1nyee7NTE1i6oWTezP3zDff+c7CCoUC+OK7bp/FyufRlEhgTzKJyUxGPLJsP5TslYvxH5Nf2vcBTcNZAqlTFHHJrZaAgwRqWNYq2FrAzLQfJCwD5yMRbFtZASN2zOfDBrcbNdksNqkqGN0dJ4NhiG8X1gAWDGdiGdTOBAgoA/b7NzZJUWycm0XNt0lsmJ/HeknCumgELB7HOWILYmrabCtZCsB7SzLY8wmwb95imEoaLBgGy9G+uAymEWM1B6YbOElSWOk0/MEgpFiMCBvlDC37cG1WwqkxHxr8EWwf9mDvZAhb/Ans/B7BAY+C+kUFnZIsQoYdaiqVgkTsywDFoVRYs0DiF4+KZj93otN1JIihszi7OMnwD6BFevAM6mS2xLZDcS/YTzUCCIVCAsg0zVXj73PjvqyyjrgElh2S5WQTq1WFNOkXI+24Va1D/rWXj56i48kz4VySOuhajkyDkdeQz+VQsDPLdXO7xzBPFcAZj46Owh/ww6CkscHeAezbugNnDp7A6PAIyUQ6UWlwwVWqv2QyJc5JKnb+n2v2rucdGo414vLFFjy4047jR+rRdqtN+LHF7/PYv3k3mo82FUNS01BIeA6Qpe7IkPFdTakCUEkq6HJ1oW7XAdxsvYW7bfdwaO9htFy6gnQmXdRwqG8Q7c13oBt6mR4pApflBLGiDxCgaRZDHhkawfWrN+ByudDb2ytYdna8omTpVIfkFI1FEQqv0DzIFxNjayXLMrxeD4KBgNCydGWzGSwsLGBpaUlEUdYppauyN3mivk79wPjMHD6PT4ju+DuQ8quJdPqaOYfKRnfO0aiE291v8aDrNVrf9MBHve4snm2u9T/D4X+ASiKO9hcfcLtnEK5hN0JSDCkCCYfDohYr31kzZMsq7jKxqL9wH6cfv0bjw05MLwfJySINs2tPm2qgjlM8oaCvvx/97z+ie+ATvKFwVb+ykKsx5D3KBedZdNOg/TI2RoU/hOnpKSonVTRAJeh/AXnpOOPJS9Pb4/Hg589flKSoSETlHHTWH3wCDBp8pu/VAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;purpose&quot; title=&quot;purpose&quot; src=&quot;/static/2a42652056b1a1e3a4be6be555e6a499/a300e/purpose.png&quot; srcset=&quot;/static/2a42652056b1a1e3a4be6be555e6a499/e7570/purpose.png 170w,
+/static/2a42652056b1a1e3a4be6be555e6a499/f46e7/purpose.png 340w,
+/static/2a42652056b1a1e3a4be6be555e6a499/a300e/purpose.png 665w&quot; sizes=&quot;(max-width: 665px) 100vw, 665px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;장단점&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;advantages&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A thirteen-layer CNN model is designed to automatically identify PD using EEG signals.&lt;/li&gt;
+&lt;li&gt;Extraction, selection, and classification of features are not required in the proposed CNN model.&lt;/li&gt;
+&lt;li&gt;The model is validated with a stratified tenfold crossvalidation technique.&lt;/li&gt;
+&lt;li&gt;This is the first work to implement the deep learning technique for the detection of PD using EEG signals.&lt;/li&gt;
+&lt;li&gt;It obtains good performance even with less number of normal and PD subjects. Hence, the developed is robust.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;disadvantages&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It uses limited number of (20 normal and 20 PD) subjects to develop the CNN model.&lt;/li&gt;
+&lt;li&gt;The CNN structure is computationally expensive as compared to the conventional machine learning techniques.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;참고 자료&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;논문: &lt;a href=&quot;https://link.springer.com/article/10.1007/s00521-018-3689-5&quot;&gt;A deep learning approach for Parkinson’s disease diagnosis from EEG signals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[TabNet: Attentive Interpretable Tabular Learning]]></title><description><![CDATA[TabNet 1. Abstract Sequential attention을 사용해서 각각의 decision step마다 여러 feature들 중에 중요한 feature들만 고름 tabular data의 self-supervised learning…]]></description><link>https://changwoomon.github.io/TabNet/</link><guid isPermaLink="false">https://changwoomon.github.io/TabNet/</guid><pubDate>Tue, 08 Jun 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;TabNet&lt;/h2&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 1rem;&quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/f02809743692fcadca634ad422c24adb/7a0e8/tabnet.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 27.058823529411764%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABJ0AAASdAHeZh94AAABDUlEQVQY0zWQzW6EMAyEef836rGnqlLV7a66h17bLYKQzQ+BEBLgq2HVRCPH9njGSlVSIhrDZC3j/c4gCE1D9I5BKXzbYJuaGAJxGB5cqce2JXYdk9ZEydelsMmttg1yXpjnQggDvu+x1uF9zyACOWfSNBNjwjovEKMxSj7JzMy2bizLyv+pco5CEKfJYe4KI85aNuzdXpukN5JSIKcep1u6+ibbWjEZD+F5TuRZto/3Q6Ma+y9U/cTkX5n7E8mcSfZMCScGiUZ9YvUFo9/x3ZVBX0lOeuYdqz4Y3YUc3vD6WXgvVGtxUGq2vOOXrTyw7u98oySNNYp2/0vbMQbN1P9Q4rfM3Q7OPntoFMUf4Jx9m1N5z9UAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
