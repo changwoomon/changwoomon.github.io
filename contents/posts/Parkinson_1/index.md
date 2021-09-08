@@ -10,7 +10,7 @@ tags:
 series: "EEG Paper Review"
 ---
 
-## `Neural Computing and Applications (2020)`
+## `Neural Computing and Applications (2018)`
 
 ### Proposed CNN architecture
 
@@ -30,18 +30,18 @@ the kernel size and number of filters are obtained through the **brute force tec
 20 PD patients (10 women and 10 men)
 
 - age range between 45 and 65 years old
-- average period of PD of 5.75 +- 3.52 years
+- average period of PD of 5.75 ± 3.52 years
     - ranging from 1 to 12 years
         - Stage (i) - 2
         - Stage (ii) - 11
         - Stage (iii) - 7
-- MNSE(mini-mental status examination) results: observed to be **inside the range of the normal limits** [26.90 +- 1.51 (range 25-30)]
+- MNSE(mini-mental status examination) results: observed to be **inside the range of the normal limits** [26.90 ± 1.51 (range 25-30)]
 
 20 normal subjects in the same age group (9 men and 11 women)
 
-- age of 58.10 +- 2.95
+- age of 58.10 ± 2.95
 - with no past record or indications of neurological or mental disorder were enlisted
-- MNSE results: 27.15 +- 1.63 years
+- MNSE results: 27.15 ± 1.63 years
 
 ### EEG recordings and pre-processing
 
