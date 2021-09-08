@@ -55,7 +55,7 @@ vanilla RNN 대신 LSTM을 사용함으로써 overcome this problem by generatin
 
 20 healthy cases with equal age range (9 males and 11 females) without past a record of neurological (or mental) disorders were also examined
 
-- The MMSE results obtained from the healthy cases were in the range of 27.15±1.63 years.
+- The MMSE results obtained from the healthy cases were in the range of 27.15 ± 1.63 years.
 
 ### Preprocessing phase and EEG signals
 
