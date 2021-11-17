@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://changwoomon.github.io/about-hoodie-kr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/quick-start-kr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/writing-guide-kr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/other-tips-kr/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/about-hoodie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/quick-start/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/writing-guide/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/other-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/series/gatsby-starter-hoodie-로-블로그-시작하기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://changwoomon.github.io/series/Getting-started-your-blog-with-gatsby-starter-hoodie</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/TRADE/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/CHAN-DST/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/SOM-DST/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/Transformer-DST/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/TabNet/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/Parkinson_1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/Parkinson_2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/series/DST-Paper-Review</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://changwoomon.github.io/series/EEG-Paper-Review</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://changwoomon.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://changwoomon.github.io/search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://changwoomon.github.io/series/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
